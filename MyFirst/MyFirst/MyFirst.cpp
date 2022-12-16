@@ -1,4 +1,11 @@
-// MyFirst.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// MyFirst.cpp : This file contains the 'main' function. 
+// 
+// Just some notes, going through how C++ handles data types, how we get input
+// from the console and how to output it too (converting input to int/float is
+// a whole different beast...)
+// 
+// @author: Landon Sturgeon
+// @created: 221216
 //
 
 #include <iostream>

@@ -1,4 +1,10 @@
-// SumOfNConseqNumbers.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// SumOfNConseqNumbers.cpp : This file contains the 'main' function. 
+// 
+// More practice with C++ expressions.
+// This time we're dipping into some neat algorithms.
+// 
+// @author: Landon Sturgeon
+// @created: 221216
 //
 
 #include <iostream>
