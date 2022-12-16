@@ -1,0 +1,5 @@
+﻿  AreaTriangle.cpp
+C:\Users\lando\Documents\UdemyCpp\AreaTriangle\AreaTriangle\AreaTriangle.cpp(30,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+C:\Users\lando\Documents\UdemyCpp\AreaTriangle\AreaTriangle\AreaTriangle.cpp(30,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'double'
+C:\Users\lando\Documents\UdemyCpp\AreaTriangle\AreaTriangle\AreaTriangle.cpp(30,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'double'
+  AreaTriangle.vcxproj -> C:\Users\lando\Documents\UdemyCpp\AreaTriangle\x64\Debug\AreaTriangle.exe
