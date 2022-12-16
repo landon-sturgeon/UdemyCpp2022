@@ -16,11 +16,11 @@ int main()
     float Base, Height, Area;
 
     // collect the triangle's base value
-    printf("What is the base of the triangle?: \n");
+    printf("What is the base of the triangle?: ");
     cin >> Base;
 
     // collect the triangle's height value
-    printf("What is the height of the triangle?: \n");
+    printf("What is the height of the triangle?: ");
     cin >> Height;
 
     // calculate the area of the triangle (1/2) * base * height
