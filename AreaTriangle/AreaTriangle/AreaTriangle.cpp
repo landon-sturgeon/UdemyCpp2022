@@ -8,26 +8,30 @@
 
 #include <iostream>
 #include <cstdio>
+#include <string>
 
 using namespace std;
 
 int main()
 {
     float Base, Height, Area;
+    string UserInput;
 
     // collect the triangle's base value
     printf("What is the base of the triangle?: ");
-    cin >> Base;
+    getline(cin, UserInput);
+    Base = atof(UserInput.c_str());
 
     // collect the triangle's height value
     printf("What is the height of the triangle?: ");
-    cin >> Height;
+    getline(cin, UserInput);
+    Height = atof(UserInput.c_str());
 
     // calculate the area of the triangle (1/2) * base * height
-    Area = 0.5f * Base * Height;
+    Area = (float) 0.5 * Base * Height;
 
     printf(
-        "The area of a triangle with a base of %d and a Height of %d = %d ", 
+        "The area of a triangle with a base of %f and a Height of %f = %f ", 
         Base, Height, Area
     );
 
