@@ -42,7 +42,7 @@ int main()
 	& == AND
 	| == OR
 	^ == X-OR
-	~ == NOT
+	~ == NOTP3rro
 	<< == LEFT SHIFT
 	>> == RIGHT SHIFT
 
@@ -74,6 +74,42 @@ int main()
 	<< multiplies the variable by 2^i 
 	(i being whatever you're left shifting it with)
 	THE SIGN BIT IS NEVER AFFECTED!!! IF IT'S NEGATIVE IT'LL STAY NEGATIVE
+	*/
+	char x = 20, y;
+	y = x << 1;
+	cout << (int)y << endl;
+
+	/* ENUMS
+	User defined data types basically
+	Departments		Menus		Days	Card Colors		Feedback
+	-----------------------------------------------------------------
+	CS				New			Mon		club			poor
+	ECE				Open		Wed		spade			satisfactory
+	IT				Save		Fri		diamond			good
+	Civil			Close		Sat		hearts			excellent
+
+	can assign codes to each word in an enum
+	can create enums in two ways, using consts and typedefs
+	
+	CONST METHOD
+	const int CS = 1;
+	const int ECE = 2;
+	etc...
+
+	TYPEDEF METHOD
+	enum day {mon, tue, wed, thu, fri, sat, sun};
+	this will assign 0 to mon, 1 to tue, etc
+	day will be a new data type
+	to use a typedef enum
+	day d;
+	d = mon; // this works
+	d = fri; // this works
+	d = 0;   // this doesn't work, int values reserved because already assigned
+	
+	you can assign any enum value any number by...
+	enum dept { cs=1, ece, it=5, civil}
+	cs = 1, ece = 2, it = 5, civil = 6
+
 	*/
 	
 	// ALWAYS NEED TO RETURN AN INT TO TELL INTERPRETER IF IT SUCCEEDED
